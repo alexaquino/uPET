@@ -52,8 +52,30 @@ body {
 
 /* Google Map! */
 #map {
-    height: 645px;
-    width: 645px;
+    /*height: 645px;
+    width: 645px;*/
+
+    position: relative;
+    padding-bottom: 105%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+
+
+
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
 }
 
 /* Responsive: Portrait tablets and up */
