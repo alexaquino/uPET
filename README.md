@@ -1,4 +1,4 @@
-# petGET v0.1
+# uPET v0.1
 
 Busca e oferta de pets para adoção.
 
